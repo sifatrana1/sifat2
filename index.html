@@ -4,30 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio Website</title>
-    <link rel="stylesheet" href="/assets/css/style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   </head>
   <body>
     <header class="header"> 
-      <a href="#home" class="logo">Sifat</a> 
+      <a href="#home" class="logo">Sifat<span>Ullah</span></a> 
       <i class="fa-solid fa-bars"></i>
 
           <i class='bx bx-menu'I id="menu-icon"></i> 
 
           <nav class="navbar"> 
               <a href="#home">Home</a>
-              <a href="#services">Services</a> 
-              <a href="#skills">Skills</a>
-              <a href="#education">Education</a>
+              <a href="#about">About</a> 
+              <a href="#services">Services</a>
               <a href="#services">Project</a> 
               <a href="#contact">Contact</a>
           </nav> 
   </header>
-    <section class="home" id="home">  
+    
+  
+  <section class="home" id="home">  
 
         <div class="home-content"> 
-          <h1>Hi, It's <span>Sifat</span></h1> 
-          <h3>I'm an <span>Engineer</span></h3> 
+          <h1>Hi, It's <span>Sifat</span></h1>
+          <h3 class="text-animation">
+          I'm <span></span>
+        </h3> 
+ 
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing e
             lit. Quam abror omnis s
             equi commodi voluptatem accusamus cumque placea
@@ -40,13 +44,13 @@
               <a href="#"><i class="bx bxl-youtube"></i></a>   
             </div>
           <div class="btn-group"> 
-            <a href="#" class="btn">Hire </a> 
-            <a href="#" class="btn">Contact </a>
+            <a href="#" class="btn">Download CV </a> 
+            <a href="#contact" class="btn">Contact </a>
 
           </div>
         </div>
 
-
+ 
 
         <div class="home-img"> 
           <img src="image.jpg" alt="">
@@ -54,35 +58,39 @@
       </section>
 
 
-      <section class="about" id="about">
+            <section class="about" id="about">
       <div class="about-img"> 
         <img src="image.jpg" alt=""> 
       </div> 
 
       
       <div class="about-content"> 
-        <h2>About <span>Me</span></h2> 
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3 class="text-animation">
+          <span></span>
+         </h3> 
+
         <p>Lorem, ipsum dolor sit amet consectetu
            r adipisicing elit. In qui voluptate
            accusantium soluta at sint sequi? Ex 
            vero nihil veritatis, quo libero, c
            ulpa sit quam dolor officia natus e
-           beatae!</p> 
+           beatae!</p>
+           
           <a href="#" class="btn">Read More</a> 
+
           </div> 
       </section>
 
-
-
-
+       <!--  services  section start hoiche       -->
+      
       <section class="services" id="services"> 
-        <h2 class="heading">Projects</h2>
+        <h2 class="heading">Services</h2>
 
         <div class="services-container"> 
-
           <div class="service-box"> 
             <div class="service-info"> 
-            <i class="bx bxs-devices"></i> 
+            <i class="bx bxl-figma"></i> 
             <h4>Sales forecast </h4> 
             <p>Lorem ipsum dolor, sit amet Π consect
               etur adipisicing elit. Reiciendis be
@@ -93,6 +101,8 @@
               imos adipisci.</p> 
             </div>   
           </div>
+<!--           repeat     korbo       -->
+
 
           <div class="service-box"> 
             <div class="service-info"> 
@@ -124,6 +134,87 @@
           </div>
         </div>  
       </section>
+
+
+<!--         projects     er kaj shoro      -->
+
+
+<section class="projects" id="projects"> 
+  <h2 class="heading">Projects</h2>
+
+  <div class="projects-box"> 
+    <div class="projects-cards"> 
+    <img src="projects1.png" alt="">
+    <h3>Project 1</h3>
+      <p>Lorem ipsum dolor, sit amet Π consect
+        etur adipisicing elit. Reiciendis be
+        atae ad ore digniss
+        imos adipisci.</p>
+        <div class="btn">See project</div>  
+      </div>   
+   
+
+    <div class="projects-cards"> 
+      <img src="projects2.png" alt="">
+      <h3>Project 2</h3>
+        <p>Lorem ipsum dolor, sit amet Π consect
+          etunon, quod conseq
+          uuntur quibusdam libero tempore digniss
+          imos adipisci.</p>
+          <div class="btn">See project</div>  
+        </div>   
+     
+
+      <div class="projects-cards"> 
+        <img src="projects3.png" alt="">
+        <h3>Project 3</h3>
+          <p>Lorem ipsum dolor, sit amet Π consect
+            ee non, quod conseq
+            uuntur quibusdam libero tempore digniss
+            imos adipisci.</p>
+            <div class="btn">See project</div>  
+          </div>   
+       
+
+
+        <div class="projects-cards"> 
+          <img src="projects4.png" alt="">
+          <h3>Project 4</h3>
+            <p>Lorem ipsum dolor, sit amet Π consect
+              etur ad
+              uuntur quibusdam libero tempore digniss
+              imos adipisci.</p>
+              <div class="btn">See project</div>  
+            </div>   
+         
+
+
+          <div class="projects-cards"> 
+            <img src="projects5.png" alt="">
+            <h3>Project 5</h3>
+              <p>Lorem ipsum dolor, sit amet Π consect
+                etur adipisicing elit. Reiciendis be
+                atae adam libero tempore digniss
+                imos adipisci.</p>
+                <div class="btn">See project</div>  
+              </div>   
+          
+
+
+            <div class="projects-cards"> 
+              <img src="projects6.png" alt="">
+              <h3>Project 6</h3>
+                <p>Lorem ipsum dolor, sit amet Π consect
+                  etur adipisicing elit. Reiciendis be
+                  atae ad a</p>
+                  <div class="btn">See project</div>  
+                </div> 
+                </div>    
+              
+          
+        </section>
+      
+<!--         contact     er kaj shoro      -->
 
       <section class="contact" id="contact">  
         <h2 class="heading">Contact <span>Me</span></h2>   
@@ -184,7 +275,7 @@
 
 
 
-      
+    -->
 
 
     <script src="script.js"></script>
